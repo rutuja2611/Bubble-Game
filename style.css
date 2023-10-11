@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(184, 248, 249);
+}
+
+#panel{
+    width: 80%;
+    height: 90%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#ptop{
+    background-color: rgb(39, 126, 128);
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 30%;
+}
+
+#elem{
+    /* width: 10%; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#box{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#pbtn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* calc is used to perform operatioms between px and percentage */
+    height: calc(100% - 100px);  
+    /* background-color: black; */
+    padding: 20px;
+    gap: 20px;
+    /* if the number of bubbles is very large to fit in one line wrap will help to take them to next line */
+    flex-wrap: wrap;
+}
+
+#bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(75, 198, 200);;
+    border-radius: 50%;
+
+}
+
+#bubble:hover{
+    background-color: rgb(40, 92, 92);
+}
+
+/* #over{
+background-color: #034355; 
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: none;
+
+
+font-size: 16px;
+} */
